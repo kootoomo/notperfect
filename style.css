@@ -908,7 +908,6 @@ input[type="submit"]:hover {
   }
   .feature-products {
     display: block;
-    margin-left: -15rem;
   }
   .feature-products__images img {
     width: 15%;
@@ -1327,6 +1326,14 @@ input[type="submit"]:hover {
   .btn-bottom {
     top: 70rem;
   }
+  .team__title {
+    margin-left: 5rem;
+  }
+  .team__text {
+    width: 66%;
+    margin-left: 11rem;
+    font-size: 1.1rem;
+  }
   .team__cell-boss-text .team__text {
     width: 90%;
   }
@@ -1337,7 +1344,7 @@ input[type="submit"]:hover {
     margin-top: 0rem;
   }
   .team__row-images {
-    margin-top: -3.5rem;
+    margin-top: 0.5rem;
   }
   .getintouch {
     margin-bottom: 41rem;
@@ -1345,9 +1352,7 @@ input[type="submit"]:hover {
   .feature-products {
     margin-left: 0;
   }
-  .feature-products__content {
-    margin-left: -10rem;
-  }
+
   .feature-products__menu {
     display: block;
     padding: 0;
@@ -1360,9 +1365,9 @@ input[type="submit"]:hover {
 @media (max-width: 455px) {
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .btn-bottom {
-    top: 50rem;
+    top: 60rem;
   }
   .article__action {
     font-size: 1.2rem;
