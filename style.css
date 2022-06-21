@@ -77,7 +77,7 @@ h3 {
   background: transparent;
   border: 1px solid #c59494;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .btn-light:hover {
   color: #2d2c2c;
@@ -91,12 +91,20 @@ h3 {
   border: 1px solid #c59494;
   transition: all 0.5s ease-in-out;
 }
+.container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-actions-hamburger {
   display: none;
 }
 .header-actions {
   display: flex;
-  margin-left: 38rem;
+  margin-right: 1rem;
 }
 .header-actions__text {
   display: inline-block;
@@ -117,19 +125,13 @@ h3 {
   margin: 0 auto;
   background-color: #f6f2f2;
 }
-.container {
-  /* max-width: 1100px; */
-  /* width: 90%; */
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
 
 .wrapper-main {
   width: 1100px;
   margin: 0 auto;
   background-color: #fff;
 }
+
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -623,7 +625,6 @@ header__menu-item:hover {
 }
 .mailing-list {
   margin: 0 auto;
-  overflow: hidden;
   background-image: url("img/sea-2.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -771,9 +772,9 @@ input[type="submit"]:hover {
   color: #c59494;
 }
 .footer {
+  width: 100%;
   margin-top: 3rem;
   background-color: #2d2c2c;
-  color: white;
   align-items: center;
   display: flex;
   align-self: flex-end;
@@ -965,18 +966,10 @@ input[type="submit"]:hover {
   }
 }
 @media (max-width: 768px) {
-  .top-wrapper {
-    width: auto;
-    display: block;
-    margin: 0;
-  }
-  .wrapper {
-    width: auto;
-    display: block;
-    margin: 0;
-  }
+  .top-wrapper,
+  .wrapper,
   .wrapper-main {
-    width: auto;
+    width: fit-content;
     display: block;
     margin: 0;
   }
@@ -1240,6 +1233,9 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 690px) {
+  .team__title {
+    margin-left: -5rem;
+  }
   .team__cell-boss-text {
     margin-left: -10rem;
   }
@@ -1346,6 +1342,12 @@ input[type="submit"]:hover {
   .getintouch {
     margin-bottom: 41rem;
   }
+  .feature-products {
+    margin-left: 0;
+  }
+  .feature-products__content {
+    margin-left: -10rem;
+  }
   .feature-products__menu {
     display: block;
     padding: 0;
@@ -1358,9 +1360,9 @@ input[type="submit"]:hover {
 @media (max-width: 455px) {
 }
 
-@media (max-width: 412px) {
+@media (max-width: 414px) {
   .btn-bottom {
-    top: 63rem;
+    top: 50rem;
   }
   .article__action {
     font-size: 1.2rem;
@@ -1430,8 +1432,63 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 380px) {
-}
+@media (max-width: 360px) {
+  .hero img {
+    max-width: 90%;
+  }
+  .btn-dark,
+  link-arrow {
+    font-size: 1.1rem;
+    margin-right: 0;
+  }
+  .link-arrow::after {
+    font-size: 1rem;
+  }
+  .article img {
+    width: 90%;
+  }
+  .hero img {
+    max-width: 100%;
+  }
+  .btn-bottom {
+    top: 70rem;
+  }
+  .provide h1 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+  .provide p {
+    margin-left: 2rem;
+  }
 
+  feature-products__text {
+    width: 60%;
+    margin-left: 7rem;
+  }
+  .team {
+    height: 52rem;
+  }
+  .team__cell-boss img {
+    width: 55%;
+  }
+  .team__row-images img {
+    width: 6rem;
+  }
+  .team__social {
+    font-size: 0.7rem;
+  }
+  .mailing-list__title {
+    margin-left: -1.8rem;
+  }
+  .mailing-list__input-text input[type="text"] {
+    width: 25rem;
+  }
+  .getintouch {
+    margin-bottom: 43rem;
+  }
+  .footer i {
+    font-size: 0.7rem;
+  }
+}
 @media (max-width: 320px) {
 }
