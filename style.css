@@ -1366,8 +1366,17 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 415px) {
+  .hero img {
+    max-width: 100%;
+  }
   .btn-bottom {
-    top: 60rem;
+    top: 75rem;
+  }
+  .article img {
+    width: 90%;
+  }
+  .article__content {
+    width: 100%;
   }
   .article__action {
     font-size: 1.2rem;
@@ -1378,6 +1387,9 @@ input[type="submit"]:hover {
   }
   .feature-products {
     margin-left: 0;
+  }
+  .provide {
+    width: 100%;
   }
   .team {
     height: 47rem;
