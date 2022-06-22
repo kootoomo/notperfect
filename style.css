@@ -197,7 +197,7 @@ a.top-header__phone::before {
 .header__submenu {
   display: none;
   position: absolute;
-  top: 4.15rem;
+  top: 4.05rem;
   left: -2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -1168,7 +1168,7 @@ input[type="submit"]:hover {
     font-size: 2.5rem;
   }
   .feature-products__text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .feature-products__divider {
     margin-bottom: 2rem;
@@ -1381,6 +1381,7 @@ input[type="submit"]:hover {
   .feature-products {
     margin-left: 0;
   }
+
   .provide {
     width: 100%;
   }
